@@ -1,6 +1,6 @@
 public class IWBService {
-    public int calculate (float weight, float height) {
-        float IWB = weight*10000/height/height;
-        return (int) IWB;
+    public float calculate (float weight, float height) {
+        float ibw = weight*10000/height/height;
+        return  ibw;
     }
 }
